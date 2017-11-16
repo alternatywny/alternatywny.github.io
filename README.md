@@ -1,1 +1,0 @@
-# alternatywny.github.io
