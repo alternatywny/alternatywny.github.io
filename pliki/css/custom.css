@@ -1,0 +1,583 @@
+
+		/* ==== GENERAL ==== */
+
+body {
+	margin-top: 50px;
+	font-family: 'Exo', Helvetica, sans-serif;
+	font-size: 16px;
+;
+}
+
+a#gototop {
+	display: none;
+	position: fixed;
+	bottom: 50px;
+	right: 35px;
+	padding: 0;
+	width: 60px;
+	height: 60px;
+	opacity: 0.8;
+	text-decoration: none;
+	color: #215E21;
+}
+
+		/* ==== GLOBAL ==== */
+
+h1,h2,h3,h4,h5,h6 {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+h1,h2 {
+	margin: 0 20px;
+}
+
+h3 {
+	margin: 20px 0;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+p {
+	margin: 0 0 15px;
+}
+
+p.lead {
+	font-weight: normal;
+}
+
+a:link, a:visited {
+	color: #dd5638;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #90D4AC;
+	transition-duration: 200ms;
+}
+
+
+
+button, input, .btn, a.btn {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	color: white;
+
+}
+
+
+img {
+	max-width: 100%;
+}
+
+
+
+.navbar-wrapper .navbar-collapse > ul > li > a {
+	color: #006300 ;
+	border: none;
+	margin-top: 5px;
+}
+
+.badge.social.twitter:hover {
+	color: #55acee;
+	border: none;
+}
+
+.badge.social.facebook:hover {
+	color: #3b5998;
+	border: none;
+}
+
+
+.badge.social.instagram:hover {
+	color: #e1306c;
+	border: none;
+}
+
+
+.badge.social.gmail:hover {
+	color: #ff4343;
+	border: none;
+}
+
+header .navbar-default {
+	border-bottom: 1px solid #75c395;
+}
+
+
+
+			/* ==== foto ==== */
+
+#foto {
+	background: url('../img/foto_tlo.jpg') 30% 0 repeat fixed;
+	min-height: 600px;
+	padding: 50px 0;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+#foto article {
+
+	text-align: center;
+	margin-top: 15px;
+	padding: 0;
+
+}
+
+#foto .foto-text {
+	background-color: rgba(71, 137, 85, 0.1);
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	color: #FFF;
+	border: solid 1px #007007;
+	font-size: 80px;
+	font-weight: bold;
+	margin-left: 0px;
+	padding: 0px;
+	height: 230px;
+}
+
+#foto .foto-text h4 {
+	font-family: 'Gruppo', cursive;
+	color: #007007;;
+}
+
+.motto-parent {
+	position: relative;
+}
+
+.motto {
+	color: #007007;
+	position: absolute;
+	top: 170px;
+	left: 35px;
+	font-size: 18px;
+	font-family: 'Gruppo', cursive;
+}
+
+
+.znak {
+	background-color: #f42828;
+	width: 120px;
+	height: 60px;
+	display: inline;
+	text-align: right;
+	padding: 0 10px;
+	border: 3px solid white;
+	border-radius: 25px;
+}
+			/* ==== PASEK ==== */
+
+.mob-only, .mob-only-container {
+	display: none;
+}			
+			
+.badge.social {
+	background: #49b776;
+	font-size: 35px;
+	height: 43px;
+	width: 43px;
+	text-align: center;
+	line-height: 43px;
+	margin-left: 3px;
+	padding: 0;
+	color: white;
+}
+
+
+#pasek {
+	border-top: 2px solid #75c395;
+	background: #49b776;
+	height: 55px;
+	padding: 0;
+	margin: 0;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+
+}
+
+.phone_div > .social_phone {
+	font-size: 24px;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-left: 5px;
+	line-height: 40px;
+	padding-right: 30px;
+}
+
+
+.socialmedia {
+	padding-top: 5px;
+	text-align: right;
+}
+
+.phone_div {
+	padding-top: 5px;
+	text-align: left;
+}
+
+
+
+#przychodnia .row {
+	margin: 0 0px;
+}
+
+#onas p {
+	line-height: 22px;
+}
+
+
+			/* ==== OFERTA ==== */
+		
+
+.of {
+	border-radius: 6px;;
+}
+
+#przychodnia .of:hover {
+	opacity : 0.60;
+	filter : alpha(opacity=60);
+	transition-duration: 500ms;
+}
+
+
+#przychodnia .of {
+	border: 1px solid #75c395;
+}
+
+
+#oferta {
+	background: #49b776;
+	color: white;
+}
+
+#oferta .of{
+	border: 2px solid white;
+	border-radius: 30px;
+}
+
+
+			/* ==== KONTAKT ==== */
+
+.mapa {
+	
+	width: 95%;
+	min-height: 450px;
+	border: none;
+	margin-bottom: 25px;
+
+} 
+
+#kontakt h3:not(:first-of-type) {
+	margin-top: 35px;
+}
+
+section td {
+	padding: 5px 20px 0px 0px;
+}
+
+#kontakt {
+	background: #49b776;
+	color: white;
+}
+
+#kontakt a {
+	text-decoration: none;
+	color: white;
+}
+
+#kontakt a:hover {
+	font-weight: bold;
+	color: #dd5638;
+}
+
+.kontakt_opis {
+	padding-left: 35px;
+}
+
+			/* ==== LAYOUT ==== */
+.row + .row {
+	margin-top: 20px;
+}
+
+section {
+	padding: 55px 0;
+}
+
+
+.section-header {
+	text-align: center;
+}
+
+section h2 {
+	margin: 5px 5px 50px 30px ;
+}
+
+section h3 {
+	margin: 5px 0 10px;
+}
+
+
+
+section li {
+	list-style-type: none;
+}
+
+section ul {
+	
+	margin: 0;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding: 0;
+}
+
+
+
+			/* ==== FOOTER ==== */
+
+
+footer {
+	background: #2d7a4c;
+	color: white;
+	padding: 20px 0 10px;
+	font-size: 12px;
+}
+
+footer p {
+	margin: 0;
+}
+
+footer a:link, footer a:visited {
+	color: white;
+}
+
+footer a:hover {
+	color: #dd5638;
+} 
+
+footer li.signup-link a {
+	color: #dd5638;
+}
+
+footer li.signup-link a:hover {
+	font-weight: bold;
+}
+
+footer .srodek {
+	text-align: right;
+	
+}
+
+
+
+/* ===== MEDIA QUERIES ===== */
+
+@media screen and ( max-width: 1490px) {
+
+}
+
+
+@media screen and ( max-width: 991px) {
+	
+		.of {
+		margin: 10px 0;
+	}
+
+}
+
+@media screen and (max-width: 767px ) {
+	
+
+	.motto {
+	position: absolute;
+	top: 170px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.logo {
+		width: 50%;
+	}	
+	
+	.badge.social {
+		font-size: 30px;
+	}
+	
+		
+	.badge.social.twitter {
+		background: #55acee;
+
+}
+
+	.badge.social.facebook {
+		background: #3b5998;
+	}
+
+	.badge.social.phone{
+		background: #85D61B;
+	}
+	
+	.badge.social.instagram {
+		background: #e1306c;
+
+	}
+	
+	.badge.social.gmail{
+	background: #ff4343;
+
+	}
+	
+	a.badge.social{
+		border: 1px solid #009118;
+	}
+	
+	#pasek a.badge.social:hover{
+		color: #FFFFFF;
+		border: 2px solid #009118;
+		transition: 0.2s;
+		font-weight: normal;
+	}
+	
+	#pasek {
+		height: 120px;
+	}
+	
+	#pasek .container {
+		padding: 0;
+	}
+	
+	#pasek div.row {
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+	}
+	
+	.mob-only-container, 
+	.mob-only, 
+	.mob-only-second-tel, 
+	.mob-only-first-tel {
+		display: inline;
+		text-align: center;
+		padding: 0;
+	}
+	
+	.mob-only-container .mob-only {
+		padding-top: 20px;
+	}
+	
+	.mob-only .social_phone {
+		color: #FFFFFF;
+		font-size: 20px;
+		margin-top: 12px;
+	}
+	
+
+	
+	.mob-only a.badge.social.phone {
+		margin-bottom: 5px;
+	}
+	
+
+		
+	.of {
+		margin: 10px 0;
+	}
+
+
+	.socialmedia {
+		text-align: center;
+		padding-left: 8%;
+		position: relative;
+	}
+	
+	.socialmedia:after {
+		content: "";
+		display: block;
+		width: 90%;
+		height: 1px;
+		position: absolute;
+		top: 58px;
+		background-color: #007007;
+	}
+
+	.phone_div {
+		display: none;
+		text-align: right;
+		margin-right: 0;
+		padding: 0;
+		margin-top: 5px;
+	}
+	
+
+	footer .srodek {
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+	footer .list-unstyled {
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+	}
+
+	footer p {
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+			padding-bottom: 5px;
+	}
+	
+	.lek_photo {
+		text-align: center;
+		padding-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	
+	.mapa {
+	
+	width: 95%;
+	min-height: 300px;
+	border: none;
+} 
+
+#foto .foto-text {
+	font-size: 70px;
+
+}
+	
+}
+
+@media screen and (max-width: 370px) {
+	
+	#pasek {
+		height: 180px;
+	}
+	
+	.mob-only-second-tel {
+		display: block;
+		margin: 0 auto;
+		padding-right: 5px;
+	}
+	.mob-only-first-tel {
+		display: block;
+		margin: 0 auto;
+	}
+}
