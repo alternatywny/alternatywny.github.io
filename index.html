@@ -2,8 +2,9 @@
 
 <html lang="pl-PL">
 
+
 	<head> 
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Przychodnia weterynaryjna Kot i Pies8vet. ul. Wrocławska 26 55-095 Łozina ">
 		<link rel="icon" href="pliki/img/favicon.ico"> 
@@ -12,9 +13,7 @@
 		<link href="pliki/css/bootstrap.css" rel="stylesheet">
 		<link href="pliki/css/custom.css" rel="stylesheet">
 		<link href="pliki/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Gruppo" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway|Exo|Gruppo|Lato" rel="stylesheet">
 		<link href="pliki/lightbox2/src/css/lightbox.css" rel="stylesheet">
 		
 		
@@ -36,7 +35,7 @@
 					<!-- ==================================== NAVBAR ==================================== -->
 		<div class="navbar-wrapper">
 		
-			<div class="navbar navbar-default navbar-fixed-top" role="navigation"> 
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation"> 
 			
 				<div class="container">
 					<div class="navbar-header"> 
@@ -46,11 +45,11 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="index.html"><img src="pliki/img/logo.png" alt="Pies8vet"></a>
+						<a class="navbar-brand" href="#" id="logo_bar"><img src="pliki/img/logo.png" alt="Pies8vet logo"></a>
 					</div> 
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right" > 
-							<li><a href="index.html">STRONA GŁÓWNA</a></li>
+							<li><a href="#" id="home">STRONA GŁÓWNA</a></li>
 							<li><a href="#pasek">PRZYCHODNIA</a></li>
 							<li><a href="#oferta">OFERTA</a></li>
 							<li><a href="#onas">O NAS</a></li>
@@ -58,7 +57,7 @@
 						</ul> 
 					</div>
 				</div> 
-			</div> 
+			</nav> 
 		</div> 
 		
 		</header>
@@ -114,10 +113,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3">
-						<a href="pliki/img/przych1.jpg" data-lightbox="przychodnia_gall" data-title="My caption"><img src="pliki/img/przych1.jpg" alt="przychodnia" class="of"></a>	
+						<a href="pliki/img/przych1.jpg" data-lightbox="przychodnia_gall" data-title="My caption"><img src="pliki/img/przych1.jpg" alt="wnętrze przychodni - stół" class="of"></a>	
 					</div>
 					<div class="col-md-3">
-						<a href="pliki/img/przych2.jpg" data-lightbox="przychodnia_gall" data-title="My caption"><img src="pliki/img/przych2.jpg" alt="przychodnia" class="of"></a>	
+						<a href="pliki/img/przych2.jpg" data-lightbox="przychodnia_gall" data-title="My caption"><img src="pliki/img/przych2.jpg" alt="wnętrze przychodni - biurko" class="of"></a>	
 					</div> 
 					<div class="col-md-6">
 						<h3>Przychodnia</h3>
@@ -127,10 +126,10 @@
 				
 				<div class="row">
 					<div class="col-md-3">
-						<a href="pliki/img/przych3.jpg" data-lightbox="przychodnia_gall" data-title="My caption"><img src="pliki/img/przych3.jpg" alt="przychodnia" class="of"></a>	
+						<a href="pliki/img/przych3.jpg" data-lightbox="przychodnia_gall" data-title="My caption"><img src="pliki/img/przych3.jpg" alt="wnętrze przychodni" class="of"></a>	
 					</div> 
 					<div class="col-md-3">
-						<a href="pliki/img/przych4.jpg" data-lightbox="przychodnia_gall" data-title="My caption"><img src="pliki/img/przych4.jpg" alt="przychodnia" class="of"></a>	
+						<a href="pliki/img/przych4.jpg" data-lightbox="przychodnia_gall" data-title="My caption"><img src="pliki/img/przych4.jpg" alt="wnętrze przychodni - poczekalnia" class="of"></a>	
 					</div> 
 					<div class="col-md-6">
 						<h3>Rezerwacja</h3>
@@ -148,48 +147,39 @@
 				</div>
 				<div class="row">
 					<div class="col-sm-3">
-						<img src="pliki/img/of1.jpg" alt="przychodnia" class="of">
+						<img src="pliki/img/of1.jpg" alt="brązowy kot i pies" class="of">
 						<ul class="fa-ul">
-						  <li><strong><i class="fa-li fa fa-check"></i>Profilaktyka:</strong></li>
-						  <li>- szczepienia ochronne</li>
-						  <li>- szczepienia przeciwko wściekliźnie</li>
-						  <li>- odrobaczanie</li>
-						  <li>- odpchlenie</li>
-						  <li>- stop kleszczom: preparaty typu Spot-On, obroże, tabletki.</li>
+						  <li><b><span class="fa-li fa fa-check"></span>Wizyty domowe</b></li>
+						  <li><b><span class="fa-li fa fa-check"></span>Profilaktyka</b></li>
+						  <li> - szczepienia</li>
+						  <li> - odrobaczanie</li>
 						</ul>
 					</div>
 					
 					<div class="col-sm-3">
-						<img src="pliki/img/of2.jpg" alt="przychodnia" class="of">
+						<img src="pliki/img/of2.jpg" alt="kot z niebieskimi oczami" class="of">
 						<ul class="fa-ul">
-						  <li><strong><i class="fa-li fa fa-check"></i>Leczenie chorób wewnętrznych</strong></li>
-						  <li>- Badania labolatoryjne</li>
-						  <li><strong><i class="fa-li fa fa-check"></i>Chirurgia tkanek miękkich:</strong></li>
-						  <li>- Sterylizacje oraz kastracje</li>
-						  <li><strong><i class="fa-li fa fa-check"></i>Położnictwo i rozród:</strong></li>
-						  <li>- cesarskie cięcia</li>
+						  <li><b><span class="fa-li fa fa-check"></span>Chipowanie i wystawianie paszportów</b></li>
+						  <li><b><span class="fa-li fa fa-check"></span>Leczenie chorób wewnętrznych i zakaźnych</b></li>
+						  <li><b><span class="fa-li fa fa-check"></span>Chirurgia tkanek miękkich</b></li>
 						</ul>
 					</div>
 					
 					<div class="col-sm-3">
-						<img src="pliki/img/of3.jpg" alt="przychodnia" class="of">
+						<img src="pliki/img/of3.jpg" alt="czarny kot i brązowy pies" class="of">
 						<ul class="fa-ul">
-						  <li><strong><i class="fa-li fa fa-check"></i>Dermatologia:</strong></li>
-						  <li>- badanie zeskrobin</li>
-						  <li>- pobranie prób do badań</li>
-						  <li><strong><i class="fa-li fa fa-check"></i>Stomatologia:</strong></li>
-						  <li>- usuwanie kamienia nazębnego ultradźwiękami</li>
-						  <li>- usuwanie przetrwałych zębów mlecznych</li>
+						  <li><b><span class="fa-li fa fa-check"></span>Dermatologia</b></li>
+						  <li><b><span class="fa-li fa fa-check"></span>Stomatologia</b></li>
+						  <li><b><span class="fa-li fa fa-check"></span>Położnictwo i rozród</b></li>
 						</ul>
 					</div> 
 					
 					<div class="col-sm-3">
-						<img src="pliki/img/of4.jpg" alt="przychodnia" class="of">
+						<img src="pliki/img/of4.jpg" alt="biały pies w łaty" class="of">
 						<ul class="fa-ul">
-						  <li><strong><i class="fa-li fa fa-check"></i>Pozostałe usługi</strong></li>
-						  <li>- Czipowanie</li>
-						  <li>- Wystawianie paszportów</li>
-						  <li>- Zabiegi pielęgnacyjne</li>
+						  <li><b><span class="fa-li fa fa-check"></span>Dietetyka weterynaryjna</b></li>
+						  <li><b><span class="fa-li fa fa-check"></span>Okulistyka</b></li>
+						  <li><b><span class="fa-li fa fa-check"></span>Badania labolatoryjne</b></li>
 						</ul>
 					</div> 
 				</div>
@@ -205,12 +195,12 @@
 				</div> <!-- end section-header -->			
 				<div class="row">
 					<div class="col-sm-4 lek_photo">
-						<img src="pliki/img/empty_photo.jpg" alt="lekarz" >
+						<img src="pliki/img/empty_photo.jpg" alt="lekarz Anna Kucharczyk" >
 					</div>
 					<div class="col-sm-8">
-						<h3>Lek.wet. Anna Kucharczyk</h3>
+						<h3>Lek. wet. Anna Kucharczyk</h3>
 						<p>Ukończyła studia weterynaryjne na Uniwersytecie Przyrodniczym we Wrocławiu w 2012 roku. Podczas każdych wakacji pragnąc poszerzać swoją teoretyczną wiedzę praktycznymi umiejętnościami, szkoliła się jako ochotnik w przychodniach weterynaryjnych. Od czasu ukończenia studiów odbywała liczne praktyki w przychodniach, pracowała również m.in. w jednej z klinik całodobowych w Łodzi i w schronisku dla zwierząt, w których spotkała się z bardzo dużą różnorodnością ciężkich przypadków. </p>
-						<p>Uczestniczyła w wielu międzynarodowych konferencjach – m.in. w konferencjach kardiologicznych, z chorób układu oddechowego, z nefrologii i urologii ; kursach m.in. – w kursach z USG jamy brzusznej ; warsztatach – m.in. neurologicznych, ortopedycznych, radiologicznych.</p>
+						<p>Uczestniczyła w wielu międzynarodowych konferencjach – m.in. w konferencjach kardiologicznych, z chorób układu oddechowego, z nefrologii i urologii; kursach m.in. – w kursach z USG jamy brzusznej; warsztatach – m.in. neurologicznych, ortopedycznych, radiologicznych.</p>
 						<p>Swoje szczególne zainteresowanie radiologią rozwija na specjalizacji z Radiologii Weterynaryjnej na Uniwersytecie Przyrodniczym we Wrocławiu, co pozwala jej na zapoznanie się z najnowszą wiedzą na temat badania RTG i USG.
 						<p>W przychodni szczególnie zajmuje się przeprowadzaniem badań USG, gryzoniami, królikami oraz chirurgią miękką.</p>
 						<p>Prywatnie właścicielka 2 psów, 2 kotów i dwóch świnek morskich. Bardzo lubi spędzać wolny czas na łonie natury i oglądać filmy przyrodnicze.</p>
@@ -219,10 +209,10 @@
 				
 				<div class="row">
 					<div class="col-sm-4 lek_photo">
-						<img src="pliki/img/lek2_photo.jpg" alt="lekarz">
+						<img src="pliki/img/lek2_photo.jpg" alt="lekarz Alicja Majcherkiewicz">
 					</div>
 					<div class="col-sm-8">
-						<h3>lek. wet. Alicja Majcherkiewicz</h3>
+						<h3>Lek. wet. Alicja Majcherkiewicz</h3>
 						<p>Ukończyła Wydział Medycyny Weterynaryjnej na Uniwersytecie Przyrodniczym we Wrocławiu w 2012 roku.  Po studiach odbyła staż w renomowanej Wrocławskiej Klinice- Interwet, oraz w Royston Veterinary Centre w Anglii, gdzie poszerzała umiejętności lekarskie.</p> 
 						<p>Do tej pory przyjmowała swoich pacjentów w jednym z wrocławskich gabinetów. Głównym zainteresowaniem zawodowym jest interna, dermatologia, oraz chirurga miękka. Uczestniczka licznych szkoleń i konferencji.</p> 
 						<p>W wolnym czasie oddaje się pasji kinematografii, literaturze, gotowaniu, oraz podróżom.</p>
@@ -318,9 +308,23 @@
 				$(window).scroll(function(){
 					if ($(this).scrollTop() > 200) { $('#gototop').fadeIn(); } else { $('#gototop').fadeOut(); } 
 				});
+				
+				$(window).scroll(function(){
+					if ($(this).scrollTop() > 300) { $('#logo_bar').fadeIn(); } else { $('#logo_bar').fadeOut(); } 
+				});
 
 				
 				$('#gototop').click(function(){
+					$('html, body').animate({ scrollTop: 0 }, 700);
+					return false;
+				});
+				
+				$('#home').click(function(){
+					$('html, body').animate({ scrollTop: 0 }, 700);
+					return false;
+				});
+				
+				$('#logo_bar').click(function(){
 					$('html, body').animate({ scrollTop: 0 }, 700);
 					return false;
 				});
@@ -337,6 +341,11 @@
 						}, 700);
 					}
 				});
+				
+				$(document).ready(function(){
+					$('body').scrollspy({target: ".navbar", offset: 50});   
+				});
+				
 			});
 
 
