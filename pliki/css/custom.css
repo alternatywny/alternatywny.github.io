@@ -5,7 +5,6 @@ body {
 	margin-top: 50px;
 	font-family: 'Exo', Helvetica, sans-serif;
 	font-size: 16px;
-;
 }
 
 a#gototop {
@@ -51,6 +50,7 @@ h4 {
 
 p {
 	margin: 0 0 15px;
+	font-family: 'Lato', sans-serif;
 }
 
 p.lead {
@@ -64,7 +64,7 @@ a:link, a:visited {
 a:hover {
 	text-decoration: none;
 	color: #90D4AC;
-	transition-duration: 200ms;
+	transition: all 400ms ease;
 }
 
 
@@ -81,12 +81,30 @@ img {
 	max-width: 100%;
 }
 
-
+#logo_bar {
+	display: none;
+}
 
 .navbar-wrapper .navbar-collapse > ul > li > a {
 	color: #006300 ;
 	border: none;
 	margin-top: 5px;
+	transition: 400ms ease;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+.navbar-wrapper .navbar-collapse > ul > li > a:hover {
+	color: #FFFFFF;
+	background-color: #8dd7ab;
+	transition: 400ms ease;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+
+}
+
+.badge.social > i:hover {
+	text-shadow: 0 0 1px #000;
 }
 
 .badge.social.twitter:hover {
@@ -120,7 +138,7 @@ header .navbar-default {
 			/* ==== foto ==== */
 
 #foto {
-	background: url('../img/foto_tlo.jpg') 30% 0 repeat fixed;
+	background: url('../img/foto_tlo.jpg') 50% 0 no-repeat fixed;
 	min-height: 600px;
 	padding: 50px 0;
 	color: white;
@@ -238,6 +256,13 @@ header .navbar-default {
 
 #onas p {
 	line-height: 22px;
+	text-indent: 40px;
+	margin: 0;
+	text-align: justify;
+}
+
+#onas .row {
+	padding-bottom: 30px;
 }
 
 
@@ -257,13 +282,17 @@ header .navbar-default {
 
 #przychodnia .of {
 	border: 1px solid #75c395;
+	transition-duration: 500ms;
 }
 
 
 #oferta {
 	background: #49b776;
 	color: white;
+	
 }
+
+
 
 #oferta .of{
 	border: 2px solid white;
@@ -298,6 +327,7 @@ section td {
 #kontakt a {
 	text-decoration: none;
 	color: white;
+	transition-duration: 300ms;
 }
 
 #kontakt a:hover {
@@ -361,6 +391,10 @@ footer p {
 	margin: 0;
 }
 
+footer a {
+	transition-duration: 500ms;
+}
+
 footer a:link, footer a:visited {
 	color: white;
 }
@@ -401,7 +435,15 @@ footer .srodek {
 
 @media screen and (max-width: 767px ) {
 	
-
+	.navbar-wrapper .navbar-collapse > ul > li > a:hover {
+		border-bottom: none;
+	}
+	
+		.navbar-wrapper .navbar-collapse > ul > li {
+		text-align: center;
+	}
+	
+	
 	.motto {
 	position: absolute;
 	top: 170px;
@@ -547,6 +589,11 @@ footer .srodek {
 		text-align: center;
 		padding-bottom: 20px;
 	}
+	
+	#oferta li {
+	display: table;
+	margin: 0 auto;
+}
 }
 
 @media screen and (max-width: 568px) {

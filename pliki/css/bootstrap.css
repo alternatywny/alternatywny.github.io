@@ -4513,10 +4513,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #49b776;
-  border-bottom: solid 1px;
-  border-bottom-color: #8dd7ab;
   background-color: transparent;
-  font-size: 1.07em;
+
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
