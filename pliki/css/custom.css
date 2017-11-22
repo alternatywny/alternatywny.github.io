@@ -103,7 +103,7 @@ img {
 
 }
 
-.badge.social > i:hover {
+.badge.social > span:hover {
 	text-shadow: 0 0 1px #000;
 }
 
