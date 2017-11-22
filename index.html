@@ -62,7 +62,6 @@
 		
 		</header>
 					<!-- ==================================== FOTO ==================================== -->
-		<!--<section id="foto" data-type="background" data-speed="3">-->
 		<section id="foto" data-type="background" data-speed="3">
 			<article>
 				<div class="container clearfix motto-parent"> 
@@ -330,8 +329,9 @@
 					$('html, body').animate({ scrollTop: 0 }, 700);
 					return false;
 				});
+				
+				$('body').scrollspy({target: ".navbar", offset: 50}); 
 			
-				$("#foto").css("height",$(window).height()-100);
 	 
 				$('a[href^="#"]').on('click', function(event) {
 		
@@ -345,13 +345,10 @@
 					}
 				});
 				
-				 $(".navbar-nav li a").click(function(event) {
+				$(".navbar-nav li a").click(function(event) {
 					$(".navbar-collapse").collapse('hide');
-				  });
-				
-				$(document).ready(function(){
-					$('body').scrollspy({target: ".navbar", offset: 50});   
 				});
+				
 				
 			});
 
