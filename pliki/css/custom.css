@@ -138,9 +138,13 @@ header .navbar-default {
 			/* ==== foto ==== */
 
 #foto {
-	background: url('../img/foto_tlo.jpg') 50% 0 no-repeat fixed;
+	/*background: url('../img/foto_tlo.jpg') 50% 0 no-repeat fixed;*/
+	background: url('../img/foto_tlo.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 600px;
+	/*min-height: 600px;*/
 	padding: 50px 0;
 	color: white;
 	-webkit-font-smoothing: antialiased;
@@ -442,6 +446,10 @@ footer .srodek {
 	
 		.navbar-wrapper .navbar-collapse > ul > li {
 		text-align: center;
+	}
+	
+	#foto {
+		background-attachment: scroll;
 	}
 	
 	
