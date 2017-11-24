@@ -1,7 +1,7 @@
 
 
 $(function() {
-	if($(window).width() > 768){
+	if($(window).width() > 1366){
 		
 		//cache the window object
 		var $window = $(window);
