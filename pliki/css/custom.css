@@ -297,12 +297,17 @@ header .navbar-default {
 }
 
 
-
 #oferta .of{
 	border: 2px solid white;
 	border-radius: 30px;
 }
 
+			/* ==== O NAS ==== */
+			
+.lek_photo img {
+		border: 3px solid #49b776;
+		border-radius: 5px;
+	}			
 
 			/* ==== KONTAKT ==== */
 
